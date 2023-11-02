@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500&family=Poppins:wght@300;400;600&family=Quicksand:wght@400;500;600;700&display=swap');
+
+a {
+    color: black;
+    font-family: 'Quicksand';
+}
+
+.menubar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.menubar:hover {
+    background-color: rgba(128, 128, 128, 0.329);
+}
+
+.menubar_list li a{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    gap: 2px;
+}
+
+.menubar_list li a svg{
+    margin-top: 4px;
+
+}

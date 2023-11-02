@@ -1,0 +1,10 @@
+.Hero div div {
+    background-color: blue;
+    height: 2rem;
+}
+
+.Hero div {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
