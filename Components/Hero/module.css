@@ -1,10 +1,14 @@
-.Hero div div {
-    background-color: blue;
-    height: 2rem;
+.hero_heading {
+    padding: 24px 0px;
 }
 
-.Hero div {
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
+.hero_menu div {
+    background-color: #ffffff12;
+    padding: 6px;
+}
+
+.hero_menu svg {
+    color: white;
+    height: 24px;
+    width: 24px;
 }
